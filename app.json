@@ -1,0 +1,26 @@
+{
+    "name": "Jobin Telegram Bot",
+    "description": "A paste bin like bot using jobin's api",
+    "logo": "",
+    "keywords": [
+      "telegram",
+      "bot",
+      "nodejs",
+      "pastebin",
+      "jobin"
+    ],
+    "repository": "https://github.com/iAbdulKader/jobin-tele-bot.git",
+    "website": "jobin.tk",
+    "success_url": "jobin.tk",
+      "env": {
+      "bot_api_key": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": true
+      },
+      "base_url": {
+        "description": "Base url of you bot to keep it alive. Without trailing /",
+        "value": "https://myapp.herokuapp.com",
+        "required": false
+      }
+    }
+}
